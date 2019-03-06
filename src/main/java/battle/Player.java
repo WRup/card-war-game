@@ -32,7 +32,11 @@ public class Player {
         return cards.get(0);
     }
 
-    void removeCard(){
-        cards.remove(0);
+    void removeCards(int numberOfCards){
+        if(numberOfCards==1) cards.remove(0);
+        else {
+            for (int i = 0; i < numberOfCards; i++)
+                cards.remove(i);
+        }
     }
 }
