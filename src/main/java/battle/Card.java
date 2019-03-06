@@ -23,7 +23,8 @@ class Card {
     Card() {
 
     }
-
+//TODO Patryk: Ta metoda powinna znaleźć się w klasie Deck, cała talia ma się nijak do pojedyńczej karty,
+// również nazwa metody nie jest samoopisująca może coś w stylu "createNewDeck"?
     List<Card> initCards() {
         List<Card> cards = new ArrayList<Card>();
         for (Color color : Color.values()) {

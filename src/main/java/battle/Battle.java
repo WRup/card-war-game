@@ -9,7 +9,10 @@ import static java.lang.System.exit;
  * @author Wiktor Rup
  **/
 class Battle {
-
+    //TODO Aga:  trudno mi tą cześć zrecenzowac i sie polapac ;C
+//TODO Patryk: Cała struktura programu jest bardzo niejasna, powinienneś przenieść klasy od danej odpowiedzialności do wybranych pakietów
+// brakuje mi również jakiegoś łącznika między deck a game, Klasa Board z polem List<Player> może być rozwiązaniem
+//TODO: Mógłbyś zrobić jedną listę STÓŁ (List<Card> table) i do niej dodawać karty obu graczy, a później wstrzykiwać cały stół, do wygranego :) czytelniejsze rozwiązanie //Kacper
     private Player player1;
     private Player player2;
     private List<Card> p1BattleCards;
@@ -21,7 +24,11 @@ class Battle {
         p1BattleCards = new ArrayList<Card>();
         p2BattleCards = new ArrayList<Card>();
     }
-
+//TODO: Widzę, co tu robisz z tym typem zwracanym, ale myślę, że metoda powinna być raczej void i po prostu drukować to na ekran.
+// Zwraca String, który jakby nie patrzeć nie jest w ogóle potrzebny z punktu widzenia logiki //Kacper
+    //TODO Patryk, myślę, żę cała metoda mogłabybyć znacznie krótsza lub podzielona na wiele mniejszych metod dla czytelności kodu i łatwiejszym usprawnianiu
+    // w przyszłości. Brakuje mi również osobnej klasy odpowiedzialnej za interfejs użytkownika, obecnia klasa Battle robi wszystko, zamiast korzystać z gotowych metod innych klas
+    // łącząc je w całość
     String compareCards() {
 
         List<Card> player1Cards = player1.getCards();
@@ -66,6 +73,8 @@ class Battle {
             System.out.println("Gracz" + player1.getName() + "przegral. Nie ma juz kart!");
             exit(0);
         }
+
+        //TODO: Ze stołem by było czytelniej :D //Kacper
         player2.removeCards(1);
         player1.removeCards(1);
         addCards();
