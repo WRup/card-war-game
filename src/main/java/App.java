@@ -1,4 +1,4 @@
-import battle.Game;
+import wargame.Game;
 
 /**
  * @author Wiktor Rup

@@ -2,14 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="202d08c8-a8ce-42d3-a698-f01cc474ce8e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wargame/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wargame/CardColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wargame/CardName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wargame/Deck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wargame/DeckGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wargame/Table.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/battle/Battle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/battle/Battle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/battle/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/battle/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/battle/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/battle/Color.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/battle/Battle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/battle/Battle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/battle/Card.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/battle/Card.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/battle/Battle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wargame/Skirmish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/battle/Card.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/battle/CardName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/battle/Color.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/battle/Deck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/battle/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wargame/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/battle/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wargame/Player.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,21 +31,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/wargame/Skirmish.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/battle/Battle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-166">
-              <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+            <state relative-caret-position="563">
+              <caret line="43" column="36" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,80 +45,105 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/battle/Deck.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/wargame/Deck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="767">
+              <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#196#197#0" expanded="true" />
-                <element signature="e#230#231#0" expanded="true" />
-                <element signature="e#305#306#0" expanded="true" />
-                <element signature="e#353#354#0" expanded="true" />
-                <element signature="e#445#451#0" expanded="true" />
-                <element signature="e#499#505#0" expanded="true" />
-                <element signature="e#596#608#0" expanded="true" />
+                <element signature="e#845#846#0" expanded="true" />
+                <element signature="e#867#868#0" expanded="true" />
+                <element signature="e#1053#1054#0" expanded="true" />
+                <element signature="e#1073#1074#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/battle/Card.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/wargame/DeckGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="80" selection-start-line="26" selection-start-column="80" selection-end-line="26" selection-end-column="80" />
+            <state relative-caret-position="85">
+              <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#151#152#0" expanded="true" />
-                <element signature="e#178#179#0" expanded="true" />
-                <element signature="e#412#418#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/battle/CardName.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/wargame/Card.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="408">
+              <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
               <folding>
+                <element signature="e#319#320#0" expanded="true" />
+                <element signature="e#346#347#0" expanded="true" />
+                <element signature="e#378#379#0" expanded="true" />
+                <element signature="e#415#416#0" expanded="true" />
+                <element signature="e#459#460#0" expanded="true" />
+                <element signature="e#491#492#0" expanded="true" />
+                <element signature="e#1357#1358#0" expanded="true" />
+                <element signature="e#1414#1415#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/wargame/CardName.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="e#240#241#0" expanded="true" />
                 <element signature="e#268#269#0" expanded="true" />
-                <element signature="e#152#153#0" expanded="true" />
-                <element signature="e#179#180#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/battle/Game.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/wargame/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+            <state relative-caret-position="240">
+              <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#325#337#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/battle/Player.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/wargame/Table.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+            <state relative-caret-position="476">
+              <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
               <folding>
-                <element signature="e#128#129#0" expanded="true" />
-                <element signature="e#156#157#0" expanded="true" />
-                <element signature="e#202#203#0" expanded="true" />
-                <element signature="e#236#237#0" expanded="true" />
-                <element signature="e#218#219#0" expanded="true" />
-                <element signature="e#245#246#0" expanded="true" />
-                <element signature="e#271#272#0" expanded="true" />
-                <element signature="e#306#307#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#222#223#0" expanded="true" />
+                <element signature="e#247#248#0" expanded="true" />
+                <element signature="e#388#389#0" expanded="true" />
+                <element signature="e#455#456#0" expanded="true" />
+                <element signature="e#500#501#0" expanded="true" />
+                <element signature="e#533#534#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/wargame/Player.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="e#341#342#0" expanded="true" />
+                <element signature="e#374#375#0" expanded="true" />
+                <element signature="e#424#425#0" expanded="true" />
+                <element signature="e#468#469#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -124,18 +151,19 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/battle/Color.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/wargame/CardColor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="120" selection-start-line="6" selection-start-column="120" selection-end-line="6" selection-end-column="120" />
+            <state relative-caret-position="85">
+              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -146,6 +174,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -156,14 +185,24 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/battle/CardName.java" />
-        <option value="$PROJECT_DIR$/src/main/java/battle/Player.java" />
         <option value="$PROJECT_DIR$/src/main/java/battle/Game.java" />
         <option value="$PROJECT_DIR$/src/main/java/App.java" />
-        <option value="$PROJECT_DIR$/src/main/java/battle/Color.java" />
-        <option value="$PROJECT_DIR$/src/main/java/battle/Deck.java" />
-        <option value="$PROJECT_DIR$/src/main/java/battle/Card.java" />
         <option value="$PROJECT_DIR$/src/main/java/battle/Battle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/battle/Color.java" />
+        <option value="$PROJECT_DIR$/src/main/java/battle/Player.java" />
+        <option value="$PROJECT_DIR$/src/main/java/battle/Deck.java" />
+        <option value="$PROJECT_DIR$/src/main/java/battle/CardName.java" />
+        <option value="$PROJECT_DIR$/src/main/java/battle/DeckGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/battle/Card.java" />
+        <option value="$PROJECT_DIR$/src/main/java/wargame/CardName.java" />
+        <option value="$PROJECT_DIR$/src/main/java/wargame/Game.java" />
+        <option value="$PROJECT_DIR$/src/main/java/wargame/DeckGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/wargame/Player.java" />
+        <option value="$PROJECT_DIR$/src/main/java/wargame/Deck.java" />
+        <option value="$PROJECT_DIR$/src/main/java/wargame/Table.java" />
+        <option value="$PROJECT_DIR$/src/main/java/wargame/Battle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/wargame/Card.java" />
+        <option value="$PROJECT_DIR$/src/main/java/wargame/Skirmish.java" />
       </list>
     </option>
   </component>
@@ -175,10 +214,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="299" />
-    <option name="y" value="27" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="413" />
+    <option name="y" value="-8" />
+    <option name="width" value="1239" />
+    <option name="height" value="676" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -186,59 +225,60 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="deckgame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deckgame" type="462c0819:PsiDirectoryNode" />
+              <item name="card-war-game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="card-war-game" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="deckgame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deckgame" type="462c0819:PsiDirectoryNode" />
+              <item name="card-war-game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="card-war-game" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="deckgame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deckgame" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="deckgame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deckgame" type="462c0819:PsiDirectoryNode" />
+              <item name="card-war-game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="card-war-game" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="deckgame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deckgame" type="462c0819:PsiDirectoryNode" />
+              <item name="card-war-game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="card-war-game" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="battle" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="deckgame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deckgame" type="462c0819:PsiDirectoryNode" />
+              <item name="card-war-game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="card-war-game" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wargame" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="card-war-game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551875702781" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551998130229" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -254,8 +294,9 @@
   </component>
   <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="App" />
-      <module name="deckgame" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -276,23 +317,29 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551859327459</updated>
+      <workItem from="1551986896532" duration="10330000" />
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="10330000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24958494" />
+      <window_info id="simpleUML" />
+      <window_info id="Learn" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2489339" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32937366" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="SonarLint" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.19978401" />
@@ -300,140 +347,190 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32937366" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="UML design tool window" />
+      <window_info anchor="right" id="TCPMON" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://$USER_HOME$/.sdkman/candidates/java/8.0.201-oracle/src.zip!/java/util/ArrayList.java">
+    <entry file="jar://$USER_HOME$/.sdkman/candidates/java/8.0.201-oracle/src.zip!/java/util/ArrayList.java" />
+    <entry file="jar://$USER_HOME$/.sdkman/candidates/java/8.0.201-oracle/src.zip!/java/util/List.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="432" selection-start-line="432" selection-end-line="432" />
+        <state relative-caret-position="187">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.sdkman/candidates/java/8.0.201-oracle/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="492" column="9" selection-start-line="492" selection-start-column="9" selection-end-line="492" selection-end-column="9" />
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/battle/Card.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/wargame/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="80" selection-start-line="26" selection-start-column="80" selection-end-line="26" selection-end-column="80" />
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#151#152#0" expanded="true" />
-            <element signature="e#178#179#0" expanded="true" />
-            <element signature="e#412#418#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/battle/CardName.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/wargame/CardColor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="85">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/wargame/CardName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
+            <element signature="e#240#241#0" expanded="true" />
             <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#152#153#0" expanded="true" />
-            <element signature="e#179#180#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/battle/Game.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/wargame/DeckGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#325#337#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/battle/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-          <folding>
-            <element signature="e#128#129#0" expanded="true" />
-            <element signature="e#156#157#0" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#218#219#0" expanded="true" />
-            <element signature="e#245#246#0" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/battle/Color.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="120" selection-start-line="6" selection-start-column="120" selection-end-line="6" selection-end-column="120" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/battle/Deck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#196#197#0" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
-            <element signature="e#445#451#0" expanded="true" />
-            <element signature="e#499#505#0" expanded="true" />
-            <element signature="e#596#608#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/battle/Battle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-166">
-          <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+        <state relative-caret-position="85">
+          <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/wargame/Deck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="767">
+          <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#845#846#0" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
+            <element signature="e#1053#1054#0" expanded="true" />
+            <element signature="e#1073#1074#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/wargame/Table.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/wargame/Card.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+          <folding>
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#1357#1358#0" expanded="true" />
+            <element signature="e#1414#1415#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/wargame/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/wargame/Skirmish.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="43" column="36" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>bootstrap</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -445,11 +542,24 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>11</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>deck-game</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
